@@ -21,7 +21,7 @@ export class AddEmployeeComponent {
 
   readValues=()=>
   {
-    let data={"empCode":this.empCode,"name":this.name,"designation":this.designation,"salary":this.salary,"companyName":this.companyName,"mobileNo":this.mobileNo,"username":this.username," password":this. password}
+    let data:any={"empCode":this.empCode,"name":this.name,"designation":this.designation,"salary":this.salary,"companyName":this.companyName,"mobileNo":this.mobileNo,"username":this.username,"password":this. password}
 
     console.log(data)
 
