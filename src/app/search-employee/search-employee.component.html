@@ -4,7 +4,7 @@
 
             <div class="row g-3">
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="label-control">Employee Code</label>
+                    <label for="" class="label-control">Employee code</label>
                     <input name="empCode" [(ngModel)]="empCode" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -36,6 +36,12 @@
                         <label for="" class="label-control">Username</label>
                         <input type="text" class="form-control" value="{{j.username}}">
                     </div>
+
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button (click)="delbuttonClick(j.id)" class="btn btn-danger">Delete</button>
+                    </div>
+
+                    
                 </div>
 
             </div>
